@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PreMidterm", "PreMidterm\PreMidterm.csproj", "{B8AFFE89-2B74-4D5F-95AF-FC727341FE6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PixelCalcTests", "PixelCalcTests\PixelCalcTests.csproj", "{706E4796-0D21-4502-9FD1-68F3D785B204}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8AFFE89-2B74-4D5F-95AF-FC727341FE6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8AFFE89-2B74-4D5F-95AF-FC727341FE6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8AFFE89-2B74-4D5F-95AF-FC727341FE6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8AFFE89-2B74-4D5F-95AF-FC727341FE6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{706E4796-0D21-4502-9FD1-68F3D785B204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{706E4796-0D21-4502-9FD1-68F3D785B204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{706E4796-0D21-4502-9FD1-68F3D785B204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{706E4796-0D21-4502-9FD1-68F3D785B204}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EA79610-6C17-4C90-9DC2-3204AC775764}
+	EndGlobalSection
+EndGlobal
