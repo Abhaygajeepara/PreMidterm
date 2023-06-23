@@ -45,7 +45,9 @@ public static class PixelCalc
     public static double CalculatePPI(int width, int height, double diagonal)
     {
 
-        return Math.Sqrt(width * width + height * height) / diagonal;
+        return
+
+            Math.Round( Math.Sqrt(width * width + height * height) / diagonal,2);
     }
 
     public static int CalculateDiagonalPixels(int width, int height)
@@ -55,6 +57,6 @@ public static class PixelCalc
 
     public static double CalculateDotPitch(double ppi)
     {
-        return 1 / ppi;
+        return  Math.Round( 1 / ppi,2);
     }
 }
